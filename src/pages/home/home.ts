@@ -5,6 +5,7 @@ import { DibujoPage } from '../dibujo/dibujo';
 import { ComunicaciónPage } from '../comunicaci\u00F3n/comunicaci\u00F3n';
 import { CienciasPage } from '../ciencias/ciencias';
 import { ProbabilidadPage } from '../probabilidad/probabilidad';
+import { RoboticaPage } from '../robotica/robotica';
 
 @Component({
   selector: 'page-home',
@@ -16,6 +17,7 @@ export class HomePage {
   Comunicacion = ComunicaciónPage;
   Ciencias= CienciasPage;
   Probabilidad = ProbabilidadPage;
+  Robotica = RoboticaPage;
  
   constructor(public navCtrl: NavController) {
 
@@ -43,6 +45,11 @@ export class HomePage {
   clickProbabilidad()
   {
     this.navCtrl.push(this.Probabilidad);
+  }
+
+  clickRobotica()
+  {
+    this.navCtrl.push(this.Robotica);
   }
 
 }

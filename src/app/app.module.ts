@@ -11,6 +11,7 @@ import { DibujoPage } from '../pages/dibujo/dibujo';
 import { ComunicaciónPage } from '../pages/comunicaci\u00F3n/comunicaci\u00F3n';
 import { CienciasPage } from '../pages/ciencias/ciencias';
 import { ProbabilidadPage } from '../pages/probabilidad/probabilidad';
+import { RoboticaPage } from '../pages/robotica/robotica';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProbabilidadPage } from '../pages/probabilidad/probabilidad';
     DibujoPage,
     ComunicaciónPage,
     CienciasPage,
-    ProbabilidadPage
+    ProbabilidadPage,
+    RoboticaPage
 
   ],
   imports: [
@@ -35,7 +37,8 @@ import { ProbabilidadPage } from '../pages/probabilidad/probabilidad';
     DibujoPage,
     ComunicaciónPage,
     CienciasPage,
-    ProbabilidadPage
+    ProbabilidadPage,
+    RoboticaPage
   ],
   providers: [
     StatusBar,
