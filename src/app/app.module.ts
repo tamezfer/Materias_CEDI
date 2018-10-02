@@ -10,6 +10,7 @@ import { HistoriaPage } from '../pages/historia/historia';
 import { DibujoPage } from '../pages/dibujo/dibujo';
 import { ComunicaciónPage } from '../pages/comunicaci\u00F3n/comunicaci\u00F3n';
 import { CienciasPage } from '../pages/ciencias/ciencias';
+import { ProbabilidadPage } from '../pages/probabilidad/probabilidad';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CienciasPage } from '../pages/ciencias/ciencias';
     HistoriaPage,
     DibujoPage,
     ComunicaciónPage,
-    CienciasPage
+    CienciasPage,
+    ProbabilidadPage
 
   ],
   imports: [
@@ -32,7 +34,8 @@ import { CienciasPage } from '../pages/ciencias/ciencias';
     HistoriaPage,
     DibujoPage,
     ComunicaciónPage,
-    CienciasPage
+    CienciasPage,
+    ProbabilidadPage
   ],
   providers: [
     StatusBar,
