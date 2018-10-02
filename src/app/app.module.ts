@@ -13,6 +13,7 @@ import { CienciasPage } from '../pages/ciencias/ciencias';
 import { ProbabilidadPage } from '../pages/probabilidad/probabilidad';
 import { RoboticaPage } from '../pages/robotica/robotica';
 import { MiPage } from '../pages/mi/mi';
+import { PappsPage } from '../pages/papps/papps';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MiPage } from '../pages/mi/mi';
     CienciasPage,
     ProbabilidadPage,
     RoboticaPage,
-    MiPage
+    MiPage,
+    PappsPage
 
   ],
   imports: [
@@ -41,7 +43,8 @@ import { MiPage } from '../pages/mi/mi';
     CienciasPage,
     ProbabilidadPage,
     RoboticaPage,
-    MiPage
+    MiPage,
+    PappsPage
   ],
   providers: [
     StatusBar,
